@@ -94,6 +94,10 @@ body {
   font-weight: bold;
 }
 
+.code {
+  font-size: 16px;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
@@ -123,4 +127,10 @@ body {
   background-image: url(assets/svg/rs_school_js.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  transition: ease-in-out 0.5s;
+}
+
+.rs-school:hover {
+  transform: scale(1.05);
+  
 }
