@@ -29,7 +29,6 @@ body {
 .navigation-list {
   list-style: none;
   padding: 0 40px;
-
   margin-left: auto;
   display: flex;
   justify-content: space-around;
